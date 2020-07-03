@@ -4,7 +4,10 @@ const rootPath = path.resolve(__dirname, '..')
 
 module.exports = {
   resolve: {
-    extensions: ['.tsx', '.ts', '.js']
+    extensions: ['.tsx', '.ts', '.js'],
+        // alias: {
+    //   '@example': path.resolve(rootPath, 'src', 'example')
+    // }
   },
   devtool: 'source-map',
   entry: path.resolve(rootPath, 'electron', 'main.ts'),
