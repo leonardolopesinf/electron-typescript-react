@@ -10,6 +10,8 @@ function createWindow () {
     width: 1100,
     height: 700,
     backgroundColor: '#191622',
+    // frame: false,
+    transparent: true,
     webPreferences: {
       nodeIntegration: true
     }
