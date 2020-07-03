@@ -1,6 +1,6 @@
 # styled/
 
-## Examople:
+## Example:
 
 ```
 common/

@@ -1,6 +1,6 @@
 # components/
 
-## Examople:
+## Example:
 
 ```
 common/
